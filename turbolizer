@@ -856,7 +856,7 @@ wait(1/100)
 local player  = game:GetService("Players").LocalPlayer
 local char = player.Character
 mouse = player:GetMouse()
-Character = player.Character
+Character = Rig
 Humanoid = Character.Humanoid
 RootPart = Character.HumanoidRootPart
 Torso = Character.Torso
