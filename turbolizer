@@ -5231,41 +5231,6 @@ end
 end
 end
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pepfre12/sterglitcher/main/suport"))()
 
 
-
--- Instances
-
-local BUTTONFORDELETELOL123 = Instance.new("ScreenGui")
-local THEBUTTON = Instance.new("TextButton")
-
--- Properties
-
-BUTTONFORDELETELOL123.Name = "BUTTONFORDELETELOL123"
-BUTTONFORDELETELOL123.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-BUTTONFORDELETELOL123.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
-THEBUTTON.Name = "THEBUTTON"
-THEBUTTON.Parent = BUTTONFORDELETELOL123
-THEBUTTON.AnchorPoint = Vector2.new(0.5, 0.5)
-THEBUTTON.BackgroundColor3 = Color3.new(1, 1, 1)
-THEBUTTON.BorderColor3 = Color3.new(0, 0, 0)
-THEBUTTON.BorderSizePixel = 0
-THEBUTTON.Position = UDim2.new(0.964707732, 0, 0.497946024, 0)
-THEBUTTON.Size = UDim2.new(0.0678543001, 0, 0.100554526, 0)
-THEBUTTON.Font = Enum.Font.SourceSans
-THEBUTTON.Text = "remove"
-THEBUTTON.TextColor3 = Color3.new(0, 0, 0)
-THEBUTTON.TextSize = 14
-
--- Scripts
-
-local function RGZR_fake_script() -- THEBUTTON.LocalScript 
-	local script = Instance.new('LocalScript', THEBUTTON)
-
-	THEBUTTON.MouseButton1Click:Connect(function()
-		LocalPlayer.PlayerGui.Main:Destroy()
-		BUTTONFORDELETELOL123:Destroy()
-	end
-end
-coroutine.wrap(RGZR_fake_script)()
