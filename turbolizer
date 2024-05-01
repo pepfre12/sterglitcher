@@ -840,8 +840,6 @@ local Rig,Options,Fling = Table.Rig,Table.Options,Table.Fling
 local script = game:GetObjects("rbxassetid://15828563411")[1].FakeMouseMainConversion
 
 
-
-
 wait(1/100)
 --for studio testing
 --burbolizer/turbolizer idfk
@@ -993,7 +991,7 @@ v.Anchored = false
 end
 Weld = Instance.new("Weld",script.Core.Core)
 Weld.Part0 = script.Core.Core.Handle
-Weld.Part1 = Rig.Torso
+Weld.Part1 = char.Torso
 Weld.C0 = Weld.C0*CFrame.new(0,-0.25,0)
 script.Core.Parent = Rig
 local Speed = 18
@@ -1244,8 +1242,9 @@ TextUI.Parent = char.Head
 TextUI.Text.Image = "rbxassetid://2863687732"
 
 local MainGui = script.Main
-MainGui.Enabled = true
 MainGui.Parent = player.PlayerGui
+MainGui.ResetOnSpawn = false
+MainGui.Enabled = true
 local SideFrame_0 = Instance.new("Frame",MainGui)
 SideFrame_0.Position = UDim2.new(0,0,0.671,0)
 SideFrame_0.Size = UDim2.new(0,457,0,216)
@@ -5231,4 +5230,3 @@ LW.C0=clerp(LW.C0,cf(-1.5,0.5 + 0.025 * math.cos(sine / 45),0)*angles(math.rad(-
 end
 end
 end
-
