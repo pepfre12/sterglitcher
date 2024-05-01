@@ -5,7 +5,7 @@
 local Emperean = loadstring([[
 
 local OptionsAccessories = nil
-local OptionsRigTransparency = nil
+local OptionsRigTransparency = 0.5
 local OptionsRigR15 = nil
 local OptionsRigSetHumanoidDescription = nil
 local OptionsRigSetCharacter = nil
