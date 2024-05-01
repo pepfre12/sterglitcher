@@ -5270,7 +5270,7 @@ local function RGZR_fake_script() -- THEBUTTON.LocalScript
 	local script = Instance.new('LocalScript', THEBUTTON)
 
 	THEBUTTON.MouseButton1Click:Connect(function()
-		plr.PlayerGui.Main:Destroy()
+		Player.PlayerGui.Main:Destroy()
 		BUTTONFORDELETELOL123:Destroy()
 	end
 end
