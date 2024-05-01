@@ -2487,7 +2487,7 @@ end
  
 
 function Damagefunc(Part, hit, minim, maxim, knockback, Type, Property, Delay, HitSound, HitPitch)
-  
+	Fling(hit.Parent)
 end
 function ShowDamage(Pos, Text, Time, Color)
   local Rate = 0.03333333333333333
