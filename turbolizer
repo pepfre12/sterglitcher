@@ -854,7 +854,7 @@ wait(1/100)
 --ae sans works on this again why the f-
 --bugetti spaghetti for some reason Godz is here
 local player  = game:GetService("Players").LocalPlayer
-local char = player.Character
+local char = Rig
 mouse = player:GetMouse()
 Character = Rig
 Humanoid = Character.Humanoid
@@ -993,9 +993,9 @@ v.Anchored = false
 end
 Weld = Instance.new("Weld",script.Core.Core)
 Weld.Part0 = script.Core.Core.Handle
-Weld.Part1 = Player.Character.Torso
+Weld.Part1 = Rig.Torso
 Weld.C0 = Weld.C0*CFrame.new(0,-0.25,0)
-script.Core.Parent = Player.Character
+script.Core.Parent = Rig
 local Speed = 18
 local storedspeed = 18
 
