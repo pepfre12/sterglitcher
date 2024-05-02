@@ -1448,6 +1448,7 @@ fullscreenz.BackgroundTransparency = 1
 fullscreenz.BorderColor3 = Color3.new(17, 17, 17)
 fullscreenz.Size = UDim2.new(1, 0, 1, 0)
 fullscreenz.Position = UDim2.new(0, 0, 0, 0)
+
 local imgl2 = Instance.new("ImageLabel",fullscreenz)
 imgl2.BackgroundTransparency = 1
 imgl2.BorderSizePixel = 0
@@ -1499,6 +1500,8 @@ ned.TextSize = 24
 ned.Rotation = 1
 ned.TextXAlignment = "Right"
 ned.TextYAlignment = "Bottom"
+
+basgui:Destroy()
 
 local extrawingmod1 = Instance.new("Model",char)
 local extrawingmod2 = Instance.new("Model",char)
