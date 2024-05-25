@@ -884,7 +884,7 @@ local Create = FELOADLIBRARY.Create
 wait(0.0000000000000000025)
  
 plr = game.Players.LocalPlayer
-char = plr.Character
+char = Rig
 hum = char.Humanoid
 local cam = game.Workspace.CurrentCamera
 Camera = cam
@@ -2068,7 +2068,7 @@ function CreateWeld(Parent, Part0, Part1, C0, C1)
   return Weld
 end
 Player=plr
-Character=Player.Character 
+Character=Rig
 PlayerGui=Player.PlayerGui 
 Backpack=Player.Backpack 
 Torso=Character.Torso 
@@ -2166,7 +2166,7 @@ LW.Parent=ch.Torso
 
 local Stats=Instance.new("BoolValue")
 Stats.Name="Stats"
-Stats.Parent=Character
+Stats.Parent=acter
 local Atk=Instance.new("NumberValue")
 Atk.Name="Damage"
 Atk.Parent=Stats
