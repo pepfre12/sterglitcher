@@ -3947,36 +3947,11 @@ EffectPart:Remove()
 end))
 end
 function MagniDamage(Part, magni, mindam, maxdam, knock, Type)
-  for _, c in pairs(workspace:children()) do
-    local hum = c:findFirstChildOfClass("Humanoid")
-    if hum ~= nil then
-      local head = c:findFirstChild("Head")
-      if head ~= nil then
-        local targ = head.Position - Part.Position
-        local mag = targ.magnitude
-        if magni >= mag and c.Name ~= Player.Name then
-          Damagefunc(head, head, mindam, maxdam, knock, Type, RootPart, 0.1, "rbxassetid://231917784", 1)
-        end
-      end
-    end
-  end
+
 end
 
 function MagniDamageWithEffect(Part, magni, mindam, maxdam, knock, Type)
-  for _, c in pairs(workspace:children()) do
-    local hum = c:findFirstChild("Humanoid")
-    if hum ~= nil then
-      local head = c:findFirstChild("Torso")
-      if head ~= nil then
-        local targ = head.Position - Part.Position
-        local mag = targ.magnitude
-        if magni >= mag and c.Name ~= Player.Name then
-	--MagicBlock(BrickColor.new("Pastel light blue"),head.CFrame,5,5,5,1,1,1,0.05)
-          Damagefunc(head, head, mindam, maxdam, knock, Type, RootPart, 0.1, "rbxassetid://231917784", 1)
-        end
-      end
-    end
-  end
+
 end
 function FindNearestTorso(pos,distance)
 local list=(workspace:children())
