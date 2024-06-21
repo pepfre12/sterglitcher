@@ -3458,7 +3458,7 @@ mouse.KeyDown:connect(function(key)
         elseif key == '4' and Mode == 5 then
             resetmode()
         elseif key == 'q' and Mode == 5 and exploitable == true then
-            Exploit()
+
     end
     ---------------------------------------------------------------------
     if key == '5' and Mode ~= 6 then
