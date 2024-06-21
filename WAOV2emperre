@@ -3295,7 +3295,7 @@ mouse.KeyDown:connect(function(key)
         elseif key == 'q' and Mode == 2 then
                         Magic_Bombs()
         elseif key == 'e' and Mode == 2 then
-                        Dangerous_Field()
+
         elseif key == 't' and Mode == 2 then
                         HAAH()
         end
@@ -3430,7 +3430,7 @@ mouse.KeyDown:connect(function(key)
         elseif key == 'm' and Mode == 100 then
             resetmode()
         elseif key == 'q' and Mode == 100 then
-            LAZER()
+
     end
     ---------------------------------------------------------------------
     if key == '4' and Mode ~= 5 then
@@ -3488,7 +3488,7 @@ mouse.KeyDown:connect(function(key)
         elseif key == 'q' and Mode == 6 then
             Distort()
         elseif key == 'e' and Mode == 6 then
-            Ancient_Rage()
+
         elseif key == 't' and Mode == 6 then
             TTTTTTTTTTTaunt()
     end
