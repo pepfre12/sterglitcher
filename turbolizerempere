@@ -852,9 +852,9 @@ wait(1/100)
 --ae sans works on this again why the f-
 --bugetti spaghetti for some reason Godz is here
 local player  = game:GetService("Players").LocalPlayer
-local char = FDless.character
+local char = Rig
 mouse = player:GetMouse()
-Character = FDless.character
+Character = Rig
 Humanoid = Character.Humanoid
 RootPart = Character.HumanoidRootPart
 Torso = Character.Torso
