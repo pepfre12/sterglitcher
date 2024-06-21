@@ -5623,44 +5623,49 @@ end
 	end
 		---------------------ATTACKS--------------------------
 				if Button == "z" and attacking == false and Mode == "G" then
-					glitchattack()
+				--	glitchattack()
 				end
 				
 				if Button == "z" and attacking == false and Mode == "LS" then
-					Daash()
+				--	Daash()
 				end
 				
 				if Button == "x" and attacking == false and Mode == "MN" then
-					LunarAttack()
+				--	LunarAttack()
 				end
-				
+				--
 				if Button == "z" and attacking == false and Mode == "MN" then
-					LunarAttackA()
+				--	LunarAttackA()
 				end
 				
 				if Button == "z" and attacking == false and Mode == "H" then
-					SolarAttack()
+				--	SolarAttack()
 				end
 								
 				if Button == "z" and attacking == false and Mode == "N" then
-					NuclearExtended()
+				--	NuclearExtended()
 				end
 				if Button == "x" and attacking == false and Mode == "N" then
-					NuclearGrab()
+				--	NuclearGrab()
 				end
 				if Button == "c" and attacking == false and Mode == "N" then
-					NuclearTeleport()
+				--	NuclearTeleport()
 				end
 				if Button == "z" and attacking == false and Mode == "ICE" then
-					CrystalizedFields()
+				--	CrystalizedFields()
 				end
 				if Button == "z" and attacking == false and Mode == "TP" then
-					kaboom()
+				--	kaboom()
 				end
 				if Button == "x" and attacking == false and Mode == "TP" then
-					spinnyboi()
+				--	spinnyboi()
 				end
-
+				if Button == "z" and attacking == false and Mode == "A" then
+				--	AAAA()
+				end
+				if Button == "z" and attacking == false and Mode == "FL" then
+				
+				end
 					----------------TAUNTS-----------------------------------------
 	if Button == "p" and attacking == false then
 		if Chill == false then
