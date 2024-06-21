@@ -5660,16 +5660,7 @@ end
 				if Button == "x" and attacking == false and Mode == "TP" then
 					spinnyboi()
 				end
-				if Button == "z" and attacking == false and Mode == "A" then
-					AAAA()
-				end
-				if Button == "z" and attacking == false and Mode == "FL" then
-					--FL is meant to make lots of combos
-					--so yeah
-					--also make techno effects for the attacks
-					--its kinda related to slush invaders
-	--x5
-				end
+
 					----------------TAUNTS-----------------------------------------
 	if Button == "p" and attacking == false then
 		if Chill == false then
